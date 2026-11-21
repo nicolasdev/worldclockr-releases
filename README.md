@@ -67,7 +67,10 @@ WorldClockr runs on your computer and sends nothing over the network. Its settin
 
 ## Feedback
 
-**Found a bug?** [Open an issue](https://github.com/nicolasdev/worldclockr-releases/issues/new) with your WorldClockr version and the steps that lead to it. It needs a free GitHub account.
+- **Found a bug?** [Open an issue](https://github.com/nicolasdev/worldclockr-releases/issues/new/choose) with your WorldClockr version and the steps that lead to it.
+- **An idea or a suggestion?** Post it in [Ideas](https://github.com/nicolasdev/worldclockr-releases/discussions/categories/ideas), where others can vote for it.
+
+Both need a free GitHub account.
 
 ## Credits
 

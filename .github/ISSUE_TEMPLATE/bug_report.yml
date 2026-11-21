@@ -1,0 +1,45 @@
+name: Bug report
+description: Something in WorldClockr does not work as it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Screenshots can show the names you gave your clocks: hide anything private before you attach one.
+  - type: input
+    id: worldclockr-version
+    attributes:
+      label: WorldClockr version
+      description: "Windows: Settings → Apps → Installed apps. macOS: select WorldClockr in Applications, then File → Get Info. It is also in the name of the installer you downloaded."
+      placeholder: WorldClockr 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      options:
+        - Windows
+        - macOS, Apple Silicon
+        - macOS, Intel
+    validations:
+      required: true
+  - type: input
+    id: screens
+    attributes:
+      label: Screens
+      description: How many screens, and their scaling if you know it (for example 2 screens, 100 % and 150 %).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Add a clock for Tokyo
+        2. …
