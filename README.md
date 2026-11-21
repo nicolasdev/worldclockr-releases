@@ -14,11 +14,15 @@ Time zone clocks pinned to your desktop: one widget per city or per person, in p
 - **Plain colors**: background and text color per clock, from a sober palette or any custom color, with an adjustable background opacity, and a font per clock.
 - **Size**: every clock has the same size, adjustable from 50 to 200 %, per clock or for all of them at once.
 - **Working hours**: the border of a clock shows whether you can reach that city. It is green during its working hours, then turns yellow, orange and red before the end, and red outside them; a color announces the start. The hours, the days, the five colors and when each color shows are set per clock.
+- **A task list per clock**: the button at the top right of a clock opens its list, like a checklist in a note app: check marks that strike through, one level of sub-tasks, drag to reorder, and web addresses that open in your browser. The button shows how many tasks are left.
+- **Reminders**: each task can have a reminder, in the clock's time zone or your computer's. When it is due, the clock's border blinks slowly until the task is checked.
 - **A switch per clock** shows or hides its widget on the desktop.
 - **Light or dark theme**, 24-hour or 12-hour format, start with the computer.
 - Interface in **English, French and Spanish**; the dates follow the interface language.
 
 ![The same clocks in the light theme](images/worldclockr-light.png)
+
+![The task list of a clock](images/worldclockr-tasks.png)
 
 ![The working hours of a clock](images/worldclockr-editor.png)
 
@@ -45,9 +49,11 @@ The installers are not code-signed yet, so the first launch shows a warning:
 |---|---|
 | Add a clock | **Add a clock**, then search a city, a country or a time zone and pick a result (arrows and Enter work too) |
 | Move a widget | Drag it |
-| Edit a clock | Double-click it, in the list or on the desktop, or use the pencil button in the list, or right-click the widget → Edit… |
+| Edit a clock | Double-click it in the main window, or the pencil button under it, or right-click the widget → Edit… |
 | Change the size of the clocks | Edit a clock → **Settings** tab; tick **Apply this size to all clocks** to resize them all |
 | Color the border with the working hours | Edit a clock → **Working hours** tab |
+| Keep tasks for a clock | The list button at the top right of the clock. Enter adds a task, Tab makes it a sub-task, Backspace on an empty task deletes it, the handle reorders |
+| Set a reminder | The bell on a task: date, time, and the clock's time zone or your computer's |
 | Show or hide a widget | The switch under the clock in the list, or right-click the widget → Remove from the desktop |
 | Delete a clock | The trash button under the clock in the list, then confirm |
 | Line the widgets up on the main screen | **Arrange the clocks** |

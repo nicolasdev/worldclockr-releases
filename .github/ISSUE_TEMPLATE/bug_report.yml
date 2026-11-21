@@ -10,8 +10,8 @@ body:
     id: worldclockr-version
     attributes:
       label: WorldClockr version
-      description: "Windows: Settings → Apps → Installed apps. macOS: select WorldClockr in Applications, then File → Get Info. It is also in the name of the installer you downloaded."
-      placeholder: WorldClockr 0.1.0
+      description: Shown at the bottom of the app settings (the gear button in the main window).
+      placeholder: WorldClockr 0.2.0
     validations:
       required: true
   - type: dropdown
