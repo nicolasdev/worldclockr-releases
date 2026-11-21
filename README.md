@@ -14,8 +14,10 @@ Time zone clocks pinned to your desktop: one widget per city or per person, in p
 - **Plain colors**: background and text color per clock, from a sober palette or any custom color, with an adjustable background opacity, and a font per clock.
 - **Size**: every clock has the same size, adjustable from 50 to 200 %, per clock or for all of them at once.
 - **Working hours**: the border of a clock shows whether you can reach that city. It is green during its working hours, then turns yellow, orange and red before the end, and red outside them; a color announces the start. The hours, the days, the five colors and when each color shows are set per clock.
+- **Common hours**: the round button at the bottom right of the main window shows when the clocks you check are all within their working hours, day by day. Each common range is given at your computer's time, with its duration and whether it is on now, then at the time of each clock. A 24-hour timeline shows the working hours of each clock and frames the common ones. Your checks are remembered.
 - **A task list per clock**: the button at the top right of a clock opens its list, like a checklist in a note app: check marks that strike through, one level of sub-tasks, drag to reorder, and web addresses that open in your browser. The button shows how many tasks are left.
-- **Reminders**: each task can have a reminder, in the clock's time zone or your computer's. When it is due, the clock's border blinks slowly until the task is checked.
+- **Reminders**: each task can have a reminder, in the clock's time zone or your computer's. When it is due, the reminder turns red with an **Overdue** label, and the clock's border blinks slowly until the task is checked.
+- **Built-in help**: the question mark next to the gear opens a guide to the whole app, in the app's language, with a search that looks through every section.
 - **A switch per clock** shows or hides its widget on the desktop.
 - **Light or dark theme**, 24-hour or 12-hour format, start with the computer.
 - Interface in **English, French and Spanish**; the dates follow the interface language.
@@ -52,23 +54,25 @@ The installers are not code-signed yet, so the first launch shows a warning:
 | Edit a clock | Double-click it in the main window, or the pencil button under it, or right-click the widget → Edit… |
 | Change the size of the clocks | Edit a clock → **Settings** tab; tick **Apply this size to all clocks** to resize them all |
 | Color the border with the working hours | Edit a clock → **Working hours** tab |
+| See when several clocks are all at work | The round button at the bottom right of the main window: check the clocks to compare, and change the day with ‹ and › |
 | Keep tasks for a clock | The list button at the top right of the clock. Enter adds a task, Tab makes it a sub-task, Backspace on an empty task deletes it, the handle reorders |
 | Set a reminder | The bell on a task: date, time, and the clock's time zone or your computer's |
 | Show or hide a widget | The switch under the clock in the list, or right-click the widget → Remove from the desktop |
 | Delete a clock | The trash button under the clock in the list, then confirm |
 | Line the widgets up on the main screen | **Arrange the clocks** |
 | Language, theme, 24-hour format, start with the computer | The gear button at the top right of the main window |
+| Read the help | The question mark next to the gear; type in its search box to look through every section |
 | Open the window | The WorldClockr icon in the notification area (Windows) or the menu bar (macOS), or start WorldClockr again |
 | Quit | The same icon → **Quit**. Closing the window keeps the widgets on the desktop |
 
 ## Privacy
 
-WorldClockr runs on your computer and sends nothing over the network. Its settings are stored in `%APPDATA%\WorldClockr` (Windows) or `~/Library/Application Support/WorldClockr` (macOS); uninstalling keeps them.
+WorldClockr runs on your computer and sends nothing over the network. Its settings are stored in `%APPDATA%\WorldClockr` (Windows) or `~/Library/Application Support/WorldClockr` (macOS); uninstalling keeps them, and a new version picks them up.
 
 ## Good to know
 
 - The widgets stay just above the desktop: your windows cover them, and they show again when the desktop is clear.
-- Working hours are those of the clock's time zone.
+- Working hours are those of the clock's time zone. Common hours are given for a day of your computer's calendar.
 - Linux is not supported yet.
 
 ## Feedback
