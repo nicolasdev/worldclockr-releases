@@ -13,9 +13,10 @@ Time zone clocks pinned to your desktop: one widget per city or per person, in p
 - **Your own text**: add a name above the clock, for example the person you call in that city, and show or hide it.
 - **Plain colors**: background and text color per clock, from a sober palette or any custom color, with an adjustable background opacity, and a font per clock.
 - **A switch per clock** shows or hides its widget on the desktop.
-- 24-hour or 12-hour format, start with the computer. The interface is in French; the date follows the language of your system.
+- 24-hour or 12-hour format, start with the computer.
+- Interface in **English, French and Spanish**, chosen in the main window; the dates follow the interface language.
 
-![The same list in the dark theme](images/worldclockr-dark.png)
+![Editing a clock](images/worldclockr-editor.png)
 
 ## Install
 
@@ -38,13 +39,14 @@ The installers are not code-signed yet, so the first launch shows a warning:
 
 | Action | How |
 |---|---|
-| Add a clock | **Ajouter une horloge**, then search a city, a country or a time zone and pick a result |
+| Add a clock | **Add a clock**, then search a city, a country or a time zone and pick a result (arrows and Enter work too) |
 | Move a widget | Drag it |
-| Edit a clock | **Modifier** in the list, or right-click the widget → Modifier… |
-| Show or hide a widget | The **Sur le bureau** switch in the list, or right-click the widget → Retirer du bureau |
-| Bring every widget back to the main screen | **Rassembler les widgets** |
+| Edit a clock | **Edit** in the list, or right-click the widget → Edit… |
+| Show or hide a widget | The **On the desktop** switch in the list, or right-click the widget → Remove from the desktop |
+| Bring every widget back to the main screen | **Gather the widgets** |
+| Change the language | The language list at the top of the main window |
 | Open the window | The WorldClockr icon in the notification area (Windows) or the menu bar (macOS), or start WorldClockr again |
-| Quit | The same icon → **Quitter**. Closing the window keeps the widgets on the desktop |
+| Quit | The same icon → **Quit**. Closing the window keeps the widgets on the desktop |
 
 ## Privacy
 
