@@ -4,19 +4,23 @@ Time zone clocks pinned to your desktop: one widget per city or per person, in p
 
 **[Download the latest version](https://github.com/nicolasdev/worldclockr-releases/releases/latest)** for Windows or macOS.
 
-![WorldClockr with three clocks, light theme](images/worldclockr-light.png)
+![WorldClockr with three clocks, dark theme](images/worldclockr-dark.png)
 
 ## Features
 
-- **Desktop widgets**: each clock sits on the desktop, under your windows, on any screen. Drag it where you want; its position is remembered.
+- **Desktop widgets**: each clock sits on the desktop, under your windows, on any screen. Drag it where you want; its position is remembered. New clocks line up side by side.
 - **Any city, country or time zone**: search more than 34,000 cities by name (French names work too, such as "Londres"), a country ("Japon", "JP") or an IANA time zone ("Europe/Paris").
 - **Your own text**: add a name above the clock, for example the person you call in that city, and show or hide it.
 - **Plain colors**: background and text color per clock, from a sober palette or any custom color, with an adjustable background opacity, and a font per clock.
+- **Size**: every clock has the same size, adjustable from 50 to 200 %, per clock or for all of them at once.
+- **Working hours**: the border of a clock shows whether you can reach that city. It is green during its working hours, then turns yellow, orange and red before the end, and red outside them; a color announces the start. The hours, the days, the five colors and when each color shows are set per clock.
 - **A switch per clock** shows or hides its widget on the desktop.
-- 24-hour or 12-hour format, start with the computer.
-- Interface in **English, French and Spanish**, chosen in the main window; the dates follow the interface language.
+- **Light or dark theme**, 24-hour or 12-hour format, start with the computer.
+- Interface in **English, French and Spanish**; the dates follow the interface language.
 
-![Editing a clock](images/worldclockr-editor.png)
+![The same clocks in the light theme](images/worldclockr-light.png)
+
+![The working hours of a clock](images/worldclockr-editor.png)
 
 ## Install
 
@@ -41,10 +45,13 @@ The installers are not code-signed yet, so the first launch shows a warning:
 |---|---|
 | Add a clock | **Add a clock**, then search a city, a country or a time zone and pick a result (arrows and Enter work too) |
 | Move a widget | Drag it |
-| Edit a clock | **Edit** in the list, or right-click the widget → Edit… |
-| Show or hide a widget | The **On the desktop** switch in the list, or right-click the widget → Remove from the desktop |
-| Bring every widget back to the main screen | **Gather the widgets** |
-| Change the language | The language list at the top of the main window |
+| Edit a clock | Double-click it, in the list or on the desktop, or use the pencil button in the list, or right-click the widget → Edit… |
+| Change the size of the clocks | Edit a clock → **Settings** tab; tick **Apply this size to all clocks** to resize them all |
+| Color the border with the working hours | Edit a clock → **Working hours** tab |
+| Show or hide a widget | The switch under the clock in the list, or right-click the widget → Remove from the desktop |
+| Delete a clock | The trash button under the clock in the list, then confirm |
+| Line the widgets up on the main screen | **Arrange the clocks** |
+| Language, theme, 24-hour format, start with the computer | The gear button at the top right of the main window |
 | Open the window | The WorldClockr icon in the notification area (Windows) or the menu bar (macOS), or start WorldClockr again |
 | Quit | The same icon → **Quit**. Closing the window keeps the widgets on the desktop |
 
@@ -55,6 +62,7 @@ WorldClockr runs on your computer and sends nothing over the network. Its settin
 ## Good to know
 
 - The widgets stay just above the desktop: your windows cover them, and they show again when the desktop is clear.
+- Working hours are those of the clock's time zone.
 - Linux is not supported yet.
 
 ## Feedback
