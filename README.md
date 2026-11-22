@@ -15,7 +15,8 @@ Time zone clocks pinned to your desktop: one widget per city or per person, in p
 - **Size**: every clock has the same size, adjustable from 50 to 200 %, per clock or for all of them at once.
 - **Working hours**: the border of a clock shows whether you can reach that city. It is green during its working hours, then turns yellow, orange and red before the end, and red outside them; a color announces the start. The hours, the days, the five colors and when each color shows are set per clock.
 - **Common hours**: the round button at the bottom right of the main window shows when the clocks you check are all within their working hours, day by day. Each common range is given at your computer's time, with its duration and whether it is on now, then at the time of each clock. A 24-hour timeline shows the working hours of each clock and frames the common ones. Your checks are remembered.
-- **A task list per clock**: the button at the top right of a clock opens its list, like a checklist in a note app: check marks that strike through, one level of sub-tasks, drag to reorder, and web addresses that open in your browser. The button shows how many tasks are left.
+- **A task list per clock**: the button at the top right of a clock opens its list, like a checklist in a note app: check marks that strike through, one level of sub-tasks, drag to reorder, and web addresses that open in your browser. Each task shows the date and time it was created on the left and its reminder on the right. The button shows how many tasks are left.
+- **Markdown export**: **Copy as Markdown**, at the bottom of a task list, puts it on the clipboard as a checklist, with the creation date and the reminder of each task; done tasks are struck through.
 - **Reminders**: each task can have a reminder, in the clock's time zone or your computer's. When it is due, the reminder turns red with an **Overdue** label, and the clock's border blinks slowly until the task is checked.
 - **Built-in help**: the question mark next to the gear opens a guide to the whole app, in the app's language, with a search that looks through every section.
 - **A switch per clock** shows or hides its widget on the desktop.
@@ -57,6 +58,7 @@ The installers are not code-signed yet, so the first launch shows a warning:
 | See when several clocks are all at work | The round button at the bottom right of the main window: check the clocks to compare, and change the day with ‹ and › |
 | Keep tasks for a clock | The list button at the top right of the clock. Enter adds a task, Tab makes it a sub-task, Backspace on an empty task deletes it, the handle reorders |
 | Set a reminder | The bell on a task: date, time, and the clock's time zone or your computer's |
+| Copy a task list | **Copy as Markdown** at the bottom of the list, then paste it in a note or a message |
 | Show or hide a widget | The switch under the clock in the list, or right-click the widget → Remove from the desktop |
 | Delete a clock | The trash button under the clock in the list, then confirm |
 | Line the widgets up on the main screen | **Arrange the clocks** |
