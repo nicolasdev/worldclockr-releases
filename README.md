@@ -19,8 +19,9 @@ Time zone clocks pinned to your desktop: one widget per city or per person, in p
 - **Markdown export**: **Copy as Markdown**, at the bottom of a task list, puts it on the clipboard as a checklist, with the creation date and the reminder of each task; done tasks are struck through.
 - **Reminders**: each task can have a reminder, in the clock's time zone or your computer's. When it is due, the reminder turns red with an **Overdue** label, and the clock's border blinks slowly until the task is checked.
 - **Built-in help**: the question mark next to the gear opens a guide to the whole app, in the app's language, with a search that looks through every section.
+- **New versions**: once a day, WorldClockr asks GitHub for the latest version. When a newer one is out, a red dot shows on the gear, and the settings give its number with a **Download** link to its page. It can be turned off.
 - **A switch per clock** shows or hides its widget on the desktop.
-- **Light or dark theme**, 24-hour or 12-hour format, start with the computer.
+- **Light or dark theme**, 24-hour or 12-hour format, start with the computer, and on Windows, a minimized window that leaves the taskbar for the notification area.
 - Interface in **English, French and Spanish**; the dates follow the interface language.
 
 ![The same clocks in the light theme](images/worldclockr-light.png)
@@ -62,14 +63,14 @@ The installers are not code-signed yet, so the first launch shows a warning:
 | Show or hide a widget | The switch under the clock in the list, or right-click the widget → Remove from the desktop |
 | Delete a clock | The trash button under the clock in the list, then confirm |
 | Line the widgets up on the main screen | **Arrange the clocks** |
-| Language, theme, 24-hour format, start with the computer | The gear button at the top right of the main window |
+| Language, theme, 24-hour format, start with the computer, new versions | The gear button at the top right of the main window |
 | Read the help | The question mark next to the gear; type in its search box to look through every section |
 | Open the window | The WorldClockr icon in the notification area (Windows) or the menu bar (macOS), or start WorldClockr again |
 | Quit | The same icon → **Quit**. Closing the window keeps the widgets on the desktop |
 
 ## Privacy
 
-WorldClockr runs on your computer and sends nothing over the network. Its settings are stored in `%APPDATA%\WorldClockr` (Windows) or `~/Library/Application Support/WorldClockr` (macOS); uninstalling keeps them, and a new version picks them up.
+WorldClockr runs on your computer. Its only network connection is a request to GitHub, once a day, for the number of the latest version: it carries no account or identifier, though GitHub, like any website, sees your IP address. Turn it off with **Check for new versions** in the settings. Its settings are stored in `%APPDATA%\WorldClockr` (Windows) or `~/Library/Application Support/WorldClockr` (macOS); uninstalling keeps them, and a new version picks them up.
 
 ## Good to know
 
